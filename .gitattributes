@@ -1,0 +1,4 @@
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+model_save/*.bin filter=lfs diff=lfs merge=lfs -text
+model_save/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
